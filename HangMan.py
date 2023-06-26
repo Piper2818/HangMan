@@ -154,12 +154,10 @@ while(state == False):
   else: 
     count = count + 1 
     if count == 1: 
-      print('draw head')
       K.forward(25)
       K.left(180)
       K.circle(10)
     elif count == 2: 
-      print('draw body')
       K.left(90)
       K.penup()
       K.forward(20)
@@ -167,24 +165,20 @@ while(state == False):
       K.forward(50)
       K.backward(30)
     elif count == 3: 
-      print('draw left arm')
       K.right(115)
       K.forward(20)
       K.backward(20)
       K.right(130)
-    elif count == 4: 
-      print('draw right arm')
+    elif count == 4:
       K.forward(20)
       K.backward(20)
       K.right(115)
     elif count == 5: 
-      print('draw left leg')
       K.right(75)
       K.forward(20)
       K.backward(20)
       K.left(150)
     elif count == 6: 
-      print('draw right leg')
       K.forward(20)
       K.backward(20)
       print('Game over, you died')
