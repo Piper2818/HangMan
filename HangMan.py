@@ -86,9 +86,9 @@ for i in range(2):
 gameType = input('Would you like to play against the computer (type Computer) or against a Friend (type Friend): ')
 
 if gameType.upper() == "COMPUTER": 
-  list1 = ['word', 'stuff']
-  list2 = ['another', 'things']
-  list3 = ['alex piper', 'alex piper']
+  list1 = ['word', 'stuff', 'bell', 'blue', 'flag', 'hat', 'pie']
+  list2 = ['another', 'keeping', 'knowing', 'logical', 'nuclear', 'opening', 'outside']
+  list3 = ['abruptly', 'affix', 'frazzled', 'thumbscrew', 'matrix', 'haiku', 'grogginess', 'phlegm']
   
   level = int(input('Input the level 1-3. 1 is the easiest and 3 is the hardest: '))
   
